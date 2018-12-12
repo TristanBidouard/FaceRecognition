@@ -20,7 +20,7 @@ freq = cv2.getTickFrequency()
 frameRateCalc = 1
 
 webcam = cv2.VideoCapture(0)
-path = os.path.dirname(os.path.abspath(__file__)) + "/bdd/"
+path = os.path.dirname(os.path.abspath(__file__)) + "/dataset/"
 
 while True:
 
